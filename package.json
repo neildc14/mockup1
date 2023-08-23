@@ -11,6 +11,6 @@
   },
   "scripts": {
     "start": "concurrently \"cd ./server && nodemon devstart\" \"cd ./client && npm run dev\"",
-    "prod": "concurrently \"npm install\" \"cd client && npm install\" \"cd server && npm install\""
+    "dev": "concurrently \"npm install\" \"cd client && npm install\" \"cd server && npm install\""
   }
 }
