@@ -1,13 +1,13 @@
 {
   "name": "template",
   "version": "1.0.0",
-  "devDependencies": {},
   "keywords": [],
   "author": "",
   "license": "ISC",
   "description": "",
   "dependencies": {
-    "concurrency": "^0.1.4"
+    "concurrency": "^0.1.4",
+    "concurrently": "^8.2.1"
   },
   "scripts": {
     "start": "concurrently \"cd ./server && nodemon devstart\" \"cd ./client && npm run dev\""
